@@ -1,0 +1,33 @@
+<section class="story section" id="story">
+  <div class="container">
+    <div class="story-grid">
+      <div class="story-text fade-in">
+        <span class="section-label">How it all began</span>
+        <h2 class="section-title">Our Story</h2>
+        <div class="divider"><span class="divider-icon">✦</span></div>
+        {{ with .Params.story }}
+          {{ range . }}
+          <p>{{ . }}</p>
+          {{ end }}
+        {{ else }}
+        <p>Samuel and Lindsay's story began the way so many great ones do — in the right place at exactly the right time. From that first moment, it was clear something special was taking root, the kind of feeling that grows quietly at first and then all at once.</p>
+        <p>Through shared adventures, long conversations, and the everyday moments in between, what started as a spark became something deeper: a partnership, a home, a love that grounds and inspires in equal measure.</p>
+        <p>Now, surrounded by ancient redwoods and the people they love most, they're ready to begin the next chapter.</p>
+        {{ end }}
+        <a href="#details" class="btn btn-dark" style="margin-top: 1rem;">The Wedding Details</a>
+      </div>
+      <div class="story-photo fade-in" style="transition-delay: 0.15s;">
+        <div class="story-photo-frame">
+          {{ if fileExists "static/images/couple.jpg" }}
+          <img src="/images/couple.jpg" alt="Samuel and Lindsay" loading="lazy">
+          {{ else }}
+          <div class="story-photo-placeholder">
+            <span style="font-size: 3rem; opacity: 0.3;">📷</span>
+            <p>Photo coming soon</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

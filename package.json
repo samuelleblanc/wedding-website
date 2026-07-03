@@ -1,0 +1,9 @@
+{
+  "name": "wedding-website-functions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Netlify Functions for Samuel & Lindsay wedding RSVP",
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}

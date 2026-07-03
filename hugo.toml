@@ -1,0 +1,40 @@
+baseURL = "https://samandlindsay.com/"
+locale = "en-US"
+title = "Samuel & Lindsay"
+enableRobotsTXT = true
+enableGitInfo = false
+
+[params]
+  coupleNames   = "Samuel & Lindsay"
+  weddingDate   = "2026-09-19"
+  venue         = "Roaring Camp Railroads"
+  venueCity     = "Felton, California"
+  rsvpEnabled   = false   # flip to true when invitations go out
+  contactEmail  = "wedding@samandlindsay.com"
+  mealOptions   = ["Chicken", "Fish", "Vegetarian", "Vegan"]
+
+[menus]
+  [[menus.main]]
+    name       = "Our Story"
+    url        = "/#story"
+    weight     = 1
+  [[menus.main]]
+    name       = "The Wedding"
+    url        = "/#details"
+    weight     = 2
+  [[menus.main]]
+    name       = "Venue"
+    url        = "/#venue"
+    weight     = 3
+  [[menus.main]]
+    name       = "Travel"
+    url        = "/#travel"
+    weight     = 4
+  [[menus.main]]
+    name       = "Registry"
+    url        = "/#registry"
+    weight     = 5
+  [[menus.main]]
+    name       = "RSVP"
+    url        = "/rsvp/"
+    weight     = 6

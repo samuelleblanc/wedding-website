@@ -1,0 +1,96 @@
+<section class="hero" id="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">You are cordially invited to celebrate</p>
+
+    <h1 class="hero-names">Samuel &amp; Lindsay</h1>
+
+    <div class="hero-details">
+      <span>September 19, 2026</span>
+      <span class="hero-details-sep">·</span>
+      <span>Roaring Camp</span>
+      <span class="hero-details-sep">·</span>
+      <span>Felton, California</span>
+    </div>
+
+    <div class="hero-countdown" id="countdown" aria-label="Countdown to wedding">
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-days">—</span>
+        <span class="countdown-label">Days</span>
+      </div>
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-hours">—</span>
+        <span class="countdown-label">Hours</span>
+      </div>
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-minutes">—</span>
+        <span class="countdown-label">Minutes</span>
+      </div>
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-seconds">—</span>
+        <span class="countdown-label">Seconds</span>
+      </div>
+    </div>
+
+    <div class="hero-ctas">
+      {{ if site.Params.rsvpEnabled }}
+      <a href="/rsvp/" class="btn btn-primary">RSVP Now</a>
+      {{ end }}
+      <a href="#story" class="btn btn-outline">Our Story</a>
+    </div>
+  </div>
+
+  <!-- Redwood tree silhouettes -->
+  <div class="hero-trees" aria-hidden="true">
+    <svg viewBox="0 0 1440 260" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- Back layer - shorter trees -->
+      <g opacity="0.35" fill="#0D1F0F">
+        <polygon points="80,260 80,180 56,220 56,160 32,200 32,260"/>
+        <polygon points="200,260 200,150 170,195 170,130 140,175 140,260"/>
+        <polygon points="380,260 380,170 355,210 355,145 328,188 328,260"/>
+        <polygon points="560,260 560,160 535,200 535,140 508,182 508,260"/>
+        <polygon points="720,260 720,145 692,190 692,125 665,168 665,260"/>
+        <polygon points="900,260 900,165 875,205 875,145 850,187 850,260"/>
+        <polygon points="1060,260 1060,155 1035,198 1035,133 1008,176 1008,260"/>
+        <polygon points="1240,260 1240,170 1215,212 1215,148 1188,190 1188,260"/>
+        <polygon points="1380,260 1380,185 1358,220 1358,162 1336,198 1336,260"/>
+      </g>
+      <!-- Front layer - taller, darker trees -->
+      <g fill="#0A1A0C">
+        <!-- Tree 1 -->
+        <path d="M50,260 L50,80 L20,130 L20,100 L-10,140 L-10,260 Z"/>
+        <path d="M50,260 L50,80 L80,130 L80,100 L110,140 L110,260 Z" opacity="0.7"/>
+        <!-- Tree 2 -->
+        <path d="M160,260 L160,40 L128,100 L128,60 L96,110 L96,260 Z"/>
+        <path d="M160,260 L160,40 L192,100 L192,60 L224,110 L224,260 Z" opacity="0.7"/>
+        <!-- Tree 3 -->
+        <path d="M320,260 L320,60 L288,115 L288,75 L256,120 L256,260 Z"/>
+        <path d="M320,260 L320,60 L352,115 L352,75 L384,120 L384,260 Z" opacity="0.7"/>
+        <!-- Tree 4 -->
+        <path d="M480,260 L480,30 L446,90 L446,50 L412,100 L412,260 Z"/>
+        <path d="M480,260 L480,30 L514,90 L514,50 L548,100 L548,260 Z" opacity="0.7"/>
+        <!-- Tree 5 (center) -->
+        <path d="M640,260 L640,0 L604,68 L604,28 L568,80 L568,260 Z"/>
+        <path d="M640,260 L640,0 L676,68 L676,28 L712,80 L712,260 Z" opacity="0.7"/>
+        <!-- Tree 6 -->
+        <path d="M800,260 L800,35 L766,95 L766,55 L732,105 L732,260 Z"/>
+        <path d="M800,260 L800,35 L834,95 L834,55 L868,105 L868,260 Z" opacity="0.7"/>
+        <!-- Tree 7 -->
+        <path d="M960,260 L960,55 L926,112 L926,72 L892,120 L892,260 Z"/>
+        <path d="M960,260 L960,55 L994,112 L994,72 L1028,120 L1028,260 Z" opacity="0.7"/>
+        <!-- Tree 8 -->
+        <path d="M1120,260 L1120,45 L1086,102 L1086,62 L1052,112 L1052,260 Z"/>
+        <path d="M1120,260 L1120,45 L1154,102 L1154,62 L1188,112 L1188,260 Z" opacity="0.7"/>
+        <!-- Tree 9 -->
+        <path d="M1280,260 L1280,70 L1248,125 L1248,85 L1216,132 L1216,260 Z"/>
+        <path d="M1280,260 L1280,70 L1312,125 L1312,85 L1344,132 L1344,260 Z" opacity="0.7"/>
+        <!-- Tree 10 -->
+        <path d="M1420,260 L1420,90 L1390,140 L1390,105 L1360,148 L1360,260 Z"/>
+        <path d="M1420,260 L1420,90 L1450,140 L1450,105 L1480,148 L1480,260 Z" opacity="0.7"/>
+      </g>
+      <!-- Ground fill -->
+      <rect x="0" y="250" width="1440" height="10" fill="#0A1A0C"/>
+    </svg>
+  </div>
+</section>

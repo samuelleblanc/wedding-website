@@ -1,0 +1,162 @@
+{{ define "main" }}
+<div class="rsvp-page">
+  <div class="rsvp-container">
+    <header class="rsvp-header fade-in">
+      <span class="script-title">RSVP</span>
+      <p>Please respond by August 1, 2026</p>
+    </header>
+
+    {{ if not site.Params.rsvpEnabled }}
+    <div class="rsvp-disabled fade-in">
+      <h2>Invitations Coming Soon</h2>
+      <p>We're still putting the finishing touches on things. Check back here once you receive your invitation — you'll be able to RSVP right on this page.</p>
+    </div>
+    {{ else }}
+    <div class="rsvp-form-box fade-in">
+
+      <!-- Step 1: Email lookup -->
+      <div class="rsvp-step" id="rsvp-step-lookup">
+        <label class="rsvp-lookup-label" for="rsvp-email">
+          Enter the email address on your invitation to get started
+        </label>
+        <div class="rsvp-field-group">
+          <input
+            type="email"
+            id="rsvp-email"
+            class="form-input"
+            placeholder="your@email.com"
+            autocomplete="email"
+            required>
+          <button type="button" class="btn btn-primary" id="rsvp-lookup-btn">Find My Invitation</button>
+        </div>
+        <div class="form-error" id="rsvp-lookup-error"></div>
+      </div>
+
+      <!-- Step 2: Personalized form (hidden until lookup succeeds) -->
+      <div id="rsvp-step-form" class="rsvp-step--hidden">
+        <div class="rsvp-welcome" id="rsvp-welcome">
+          <h2 id="rsvp-guest-name"></h2>
+          <p>We're so glad you can make it — please fill in your details below</p>
+        </div>
+
+        <div class="rsvp-step">
+          <form id="rsvp-form" novalidate>
+            <input type="hidden" id="rsvp-email-hidden" name="email">
+
+            <!-- Attendance -->
+            <div class="form-section">
+              <p class="form-section-title">Will you be attending?</p>
+              <div class="form-field">
+                <div class="form-radio-group">
+                  <label class="form-radio-label">
+                    <input type="radio" name="attending" value="yes" required> Joyfully accepts
+                  </label>
+                  <label class="form-radio-label">
+                    <input type="radio" name="attending" value="no"> Regretfully declines
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Attending fields (shown when "yes") -->
+            <div id="rsvp-attending-fields" class="form-collapsible">
+
+              <!-- Primary guest meal -->
+              <div class="form-section">
+                <p class="form-section-title">Your Meal Preference</p>
+                <div class="form-field">
+                  <label class="form-label" for="meal">Entrée selection</label>
+                  <select id="meal" name="meal" class="form-input">
+                    <option value="">— please choose —</option>
+                    {{ range site.Params.mealOptions }}
+                    <option value="{{ . }}">{{ . }}</option>
+                    {{ end }}
+                  </select>
+                </div>
+              </div>
+
+              <!-- Plus-one (shown only if allowed) -->
+              <div id="rsvp-plus-one" class="form-section form-collapsible">
+                <p class="form-section-title">Your Plus-One</p>
+                <div class="form-row">
+                  <div class="form-field">
+                    <label class="form-label" for="plus_one_name">Guest name</label>
+                    <input type="text" id="plus_one_name" name="plus_one_name" class="form-input" placeholder="Full name">
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label" for="plus_one_meal">Their entrée</label>
+                    <select id="plus_one_meal" name="plus_one_meal" class="form-input">
+                      <option value="">— please choose —</option>
+                      {{ range site.Params.mealOptions }}
+                      <option value="{{ . }}">{{ . }}</option>
+                      {{ end }}
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Children (shown only if allowed) -->
+              <div id="rsvp-children" class="form-section form-collapsible">
+                <p class="form-section-title">Children</p>
+                <div class="form-row">
+                  <div class="form-field">
+                    <label class="form-label" for="children_count">Number of children attending</label>
+                    <select id="children_count" name="children_count" class="form-input">
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4+</option>
+                    </select>
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label" for="children_meal">Children's meal</label>
+                    <select id="children_meal" name="children_meal" class="form-input">
+                      <option value="">— please choose —</option>
+                      <option value="Kids Chicken">Kids Chicken</option>
+                      <option value="Kids Pasta">Kids Pasta</option>
+                      <option value="Kids Vegetarian">Kids Vegetarian</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Dietary restrictions -->
+              <div class="form-section">
+                <div class="form-field">
+                  <label class="form-label" for="dietary">Dietary restrictions or allergies</label>
+                  <input type="text" id="dietary" name="dietary_restrictions" class="form-input" placeholder="e.g. gluten-free, nut allergy — leave blank if none">
+                </div>
+              </div>
+            </div>
+
+            <!-- Song + message (shown for both yes and no) -->
+            <div class="form-section" id="rsvp-extras">
+              <div class="form-field">
+                <label class="form-label" for="song_request">Song request for the dance floor 🎵</label>
+                <input type="text" id="song_request" name="song_request" class="form-input" placeholder="The song that will get you on the dance floor">
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="message">A note for Samuel &amp; Lindsay</label>
+                <textarea id="message" name="message" class="form-input" placeholder="Share a wish, a memory, or just say hello…"></textarea>
+              </div>
+            </div>
+
+            <div class="form-section" style="text-align: center;">
+              <button type="submit" class="btn btn-primary" id="rsvp-submit-btn" style="min-width: 200px;">
+                Send My RSVP
+              </button>
+              <div class="form-error" id="rsvp-submit-error" style="margin-top: 1rem;"></div>
+              <div class="form-success" id="rsvp-submit-success" style="margin-top: 1rem;"></div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+    {{ end }}
+  </div>
+</div>
+<script src="/js/rsvp.js" defer></script>
+{{ end }}
