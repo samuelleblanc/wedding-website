@@ -1,27 +1,40 @@
 <section class="travel section" id="travel">
+  <!-- Distant barn silhouette emerging from rolling hills -->
+  <div class="scene-layer scene-layer--bottom" data-parallax-speed="0.08" aria-hidden="true">
+    <svg viewBox="0 0 1440 300" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,240 Q200,200 400,220 Q600,240 720,210 Q840,180 1040,215 Q1240,250 1440,225 L1440,300 L0,300 Z" fill="#2C1810" opacity="0.13"/>
+      <path d="M0,265 Q250,235 500,255 Q750,275 960,248 Q1200,221 1440,252 L1440,300 L0,300 Z" fill="#2C1810" opacity="0.10"/>
+      <rect x="520" y="158" width="400" height="142" fill="#2C1810" opacity="0.13"/>
+      <polygon points="490,158 720,72 950,158" fill="#241309" opacity="0.12"/>
+      <rect x="628" y="220" width="72" height="80" fill="#1E0E08" opacity="0.12"/>
+      <rect x="742" y="220" width="72" height="80" fill="#1E0E08" opacity="0.12"/>
+      <rect x="940" y="125" width="52" height="175" fill="#2C1810" opacity="0.10"/>
+      <ellipse cx="966" cy="125" rx="26" ry="10" fill="#2C1810" opacity="0.10"/>
+    </svg>
+  </div>
   <div class="container">
     <div class="fade-in" style="text-align: center; margin-bottom: 3rem;">
-      <span class="section-label">Getting here &amp; staying nearby</span>
-      <h2 class="section-title">Travel &amp; Stay</h2>
+      <span class="section-label">{{ T "travel_label" }}</span>
+      <h2 class="section-title">{{ T "travel_title" }}</h2>
       <div class="divider"><span class="divider-icon">✦</span></div>
     </div>
     <div class="travel-grid">
       <div class="travel-card fade-in">
-        <h3>✈️ By Air</h3>
-        <p>The closest airports are <strong>San Jose (SJC)</strong> — 45 min away — and <strong>San Francisco (SFO)</strong>, about 75 min. Both offer rental cars and rideshare access.</p>
+        <h3>{{ T "travel_air_title" }}</h3>
+        <p>{{ T "travel_air_desc" | safeHTML }}</p>
       </div>
       <div class="travel-card fade-in">
-        <h3>🚗 By Car</h3>
-        <p>From San Jose: Take Hwy 17 south to the Felton/Mt. Hermon exit, then follow signs to Roaring Camp. Parking at the venue is free.</p>
+        <h3>{{ T "travel_car_title" }}</h3>
+        <p>{{ T "travel_car_desc" }}</p>
       </div>
       <div class="travel-card fade-in">
-        <h3>🏨 Where to Stay</h3>
-        <p>We recommend staying in <strong>Santa Cruz</strong> (15 min) or <strong>Scotts Valley</strong> (10 min). A room block will be available soon — check back here for the link.</p>
-        <a href="#" aria-disabled="true">Room block coming soon →</a>
+        <h3>{{ T "travel_hotel_title" }}</h3>
+        <p>{{ T "travel_hotel_desc" | safeHTML }}</p>
+        <a href="#" aria-disabled="true">{{ T "travel_hotel_link" }}</a>
       </div>
       <div class="travel-card fade-in">
-        <h3>🚕 Getting Around</h3>
-        <p>We encourage rideshare (Uber/Lyft) so everyone can celebrate freely. The venue is located at the end of Graham Hill Rd — allow extra time for GPS quirks in the mountains.</p>
+        <h3>{{ T "travel_rideshare_title" }}</h3>
+        <p>{{ T "travel_rideshare_desc" }}</p>
       </div>
     </div>
   </div>

@@ -41,7 +41,7 @@
    Countdown timer
    ============================================================ */
 (function () {
-  const wedding = new Date('2026-09-19T16:00:00-07:00'); // 4pm PDT
+  const wedding = new Date('2026-09-19T15:00:00-07:00'); // 3pm PDT
   const els = {
     days:    document.getElementById('cd-days'),
     hours:   document.getElementById('cd-hours'),
@@ -94,6 +94,31 @@
   );
 
   items.forEach(function (el) { observer.observe(el); });
+})();
+
+/* ============================================================
+   Parallax background layers
+   ============================================================ */
+(function () {
+  var layers = document.querySelectorAll('[data-parallax-speed]');
+  if (!layers.length) return;
+
+  function updateParallax() {
+    var halfH = window.innerHeight / 2;
+    for (var i = 0; i < layers.length; i++) {
+      var el = layers[i];
+      var speed = parseFloat(el.getAttribute('data-parallax-speed'));
+      var section = el.closest('[data-parallax-root]') || el.closest('section') || el.parentElement;
+      var rect = section.getBoundingClientRect();
+      var sectionCenter = rect.top + rect.height / 2;
+      var offset = -(sectionCenter - halfH) * speed;
+      el.style.transform = 'translateY(' + offset + 'px)';
+    }
+  }
+
+  window.addEventListener('scroll', updateParallax, { passive: true });
+  window.addEventListener('resize', updateParallax, { passive: true });
+  updateParallax();
 })();
 
 /* ============================================================

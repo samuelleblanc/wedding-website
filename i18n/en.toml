@@ -1,0 +1,245 @@
+# ── Hero ──────────────────────────────────────────────────────
+[hero_eyebrow]
+other = "You are cordially invited to celebrate"
+[hero_countdown_days]
+other = "Days"
+[hero_countdown_hours]
+other = "Hours"
+[hero_countdown_minutes]
+other = "Minutes"
+[hero_countdown_seconds]
+other = "Seconds"
+[hero_rsvp_btn]
+other = "RSVP Now"
+[hero_story_btn]
+other = "Our Story"
+
+# ── Story ─────────────────────────────────────────────────────
+[story_label]
+other = "How it all began"
+[story_title]
+other = "Our Story"
+[story_details_btn]
+other = "The Wedding Details"
+[story_photo_placeholder]
+other = "Photo coming soon"
+
+# ── Details ───────────────────────────────────────────────────
+[details_label]
+other = "Save the date"
+[details_title]
+other = "The Wedding"
+[ceremony_title]
+other = "Ceremony"
+[reception_title]
+other = "Reception"
+[label_date]
+other = "Date"
+[label_time]
+other = "Time"
+[label_location]
+other = "Location"
+[label_attire]
+other = "Attire"
+[label_dinner]
+other = "Dinner"
+[label_music]
+other = "Music"
+[ceremony_date_value]
+other = "Saturday, September 19, 2026"
+[ceremony_time_value]
+other = "3:00 PM"
+[ceremony_location_line1]
+other = "Roaring Camp Railroads"
+[ceremony_location_line2]
+other = "5401 Graham Hill Rd, Felton, CA 95018"
+[ceremony_attire_value]
+other = "Garden formal — think earthy tones, florals, and comfortable shoes for redwood paths"
+[reception_time_value]
+other = "4:15 PM – 10:00 PM"
+[reception_location_value]
+other = "Roaring Camp Railroads — Redwood Grove"
+[reception_dinner_value]
+other = "Seated dinner with cocktail hour to follow the ceremony"
+[reception_music_value]
+other = "Dancing under the redwoods until 10:00 PM"
+
+# ── Venue ─────────────────────────────────────────────────────
+[venue_label]
+other = "Where we'll celebrate"
+[venue_p1]
+other = "Nestled in the heart of the Santa Cruz Mountains, Roaring Camp is one of Northern California's most magical settings. Ancient coast redwoods — some over 1,800 years old — stand as silent witnesses to the day we say \"I do.\""
+[venue_p2]
+other = "The venue sits along Bear Creek, surrounded by old-growth redwood groves, the scent of pine, and the gentle sound of a narrow-gauge railroad winding through the forest."
+[venue_fact1_title]
+other = "5401 Graham Hill Rd"
+[venue_fact1_sub]
+other = "Felton, CA 95018"
+[venue_fact2_title]
+other = "~40 min from San Jose"
+[venue_fact2_sub]
+other = "~15 min from Santa Cruz"
+[venue_fact3_title]
+other = "Free Parking"
+[venue_fact3_sub]
+other = "On-site at the venue"
+[venue_fact4_title]
+other = "Outdoor Ceremony"
+[venue_fact4_sub]
+other = "Rain plan available"
+
+# ── Schedule ──────────────────────────────────────────────────
+[schedule_label]
+other = "September 19, 2026"
+[schedule_title]
+other = "The Day"
+[schedule_1_time]
+other = "2:15 PM"
+[schedule_1_title]
+other = "Guests Arrive"
+[schedule_1_desc]
+other = "Welcome drinks served in the redwood grove"
+[schedule_2_time]
+other = "3:00 PM"
+[schedule_2_title]
+other = "Ceremony"
+[schedule_2_desc]
+other = "We say \"I do\" beneath the ancient redwoods"
+[schedule_3_time]
+other = "3:15 PM"
+[schedule_3_title]
+other = "Train Departs"
+[schedule_3_desc]
+other = "Our vintage narrow-gauge steam train carries you through the ancient forest to the ceremony site"
+[schedule_4_time]
+other = "4:15 PM"
+[schedule_4_title]
+other = "Cocktail Hour"
+[schedule_4_desc]
+other = "Hors d'oeuvres, drinks & lawn games"
+[schedule_5_time]
+other = "5:30 PM"
+[schedule_5_title]
+other = "Dinner & Toasts"
+[schedule_5_desc]
+other = "Seated dinner under the stars with heartfelt words from those we love"
+[schedule_6_time]
+other = "7:30 PM"
+[schedule_6_title]
+other = "First Dance & Dancing"
+[schedule_6_desc]
+other = "The dance floor opens — we hope to see you out there"
+[schedule_7_time]
+other = "9:30 PM"
+[schedule_7_title]
+other = "Last Dance & Send-off"
+[schedule_7_desc]
+other = "One last song before we head into the rest of our lives"
+[schedule_8_time]
+other = "10:00 PM"
+[schedule_8_title]
+other = "Venue Closes"
+[schedule_8_desc]
+other = "Safe travels — see you on the other side!"
+
+# ── Travel ────────────────────────────────────────────────────
+[travel_label]
+other = "Getting here & staying nearby"
+[travel_title]
+other = "Travel & Stay"
+[travel_air_title]
+other = "✈️ By Air"
+[travel_air_desc]
+other = "The closest airports are <strong>San Jose (SJC)</strong> — 45 min away — and <strong>San Francisco (SFO)</strong>, about 75 min. Both offer rental cars and rideshare access."
+[travel_car_title]
+other = "🚗 By Car"
+[travel_car_desc]
+other = "From San Jose: Take Hwy 17 south to the Felton/Mt. Hermon exit, then follow signs to Roaring Camp. Parking at the venue is free."
+[travel_hotel_title]
+other = "🏨 Where to Stay"
+[travel_hotel_desc]
+other = "We recommend staying in <strong>Santa Cruz</strong> (15 min) or <strong>Scotts Valley</strong> (10 min). A room block will be available soon — check back here for the link."
+[travel_hotel_link]
+other = "Room block coming soon →"
+[travel_rideshare_title]
+other = "🚕 Getting Around"
+[travel_rideshare_desc]
+other = "We encourage rideshare (Uber/Lyft) so everyone can celebrate freely. The venue is located at the end of Graham Hill Rd — allow extra time for GPS quirks in the mountains."
+
+# ── Registry ──────────────────────────────────────────────────
+[registry_label]
+other = "Gifts"
+[registry_title]
+other = "Registry"
+[registry_note]
+other = "Your presence at our wedding is the greatest gift of all. For those who wish to give, our registry details will be shared here soon."
+[registry_placeholder_name]
+other = "Coming Soon"
+[registry_placeholder_sub]
+other = "Registry link will be added here"
+
+# ── Footer ────────────────────────────────────────────────────
+[footer_date]
+other = "September 19, 2026 · Roaring Camp, Felton CA"
+[footer_love]
+other = "Made with love & redwood magic"
+
+# ── RSVP page ─────────────────────────────────────────────────
+[rsvp_deadline]
+other = "Please respond by August 1, 2026"
+[rsvp_disabled_title]
+other = "Invitations Coming Soon"
+[rsvp_disabled_text]
+other = "We're still putting the finishing touches on things. Check back here once you receive your invitation — you'll be able to RSVP right on this page."
+[rsvp_lookup_label]
+other = "Enter the email address on your invitation to get started"
+[rsvp_lookup_btn]
+other = "Find My Invitation"
+[rsvp_welcome_msg]
+other = "We're so glad you can make it — please fill in your details below"
+[rsvp_attending_question]
+other = "Will you be attending?"
+[rsvp_accept]
+other = "Joyfully accepts"
+[rsvp_decline]
+other = "Regretfully declines"
+[rsvp_meal_section]
+other = "Your Meal Preference"
+[rsvp_meal_label]
+other = "Entrée selection"
+[rsvp_meal_placeholder]
+other = "— please choose —"
+[rsvp_plus_one_section]
+other = "Your Plus-One"
+[rsvp_plus_one_name_label]
+other = "Guest name"
+[rsvp_plus_one_name_placeholder]
+other = "Full name"
+[rsvp_plus_one_meal_label]
+other = "Their entrée"
+[rsvp_children_section]
+other = "Children"
+[rsvp_children_count_label]
+other = "Number of children attending"
+[rsvp_children_meal_label]
+other = "Children's meal"
+[rsvp_child_meal_chicken]
+other = "Kids Chicken"
+[rsvp_child_meal_pasta]
+other = "Kids Pasta"
+[rsvp_child_meal_veg]
+other = "Kids Vegetarian"
+[rsvp_dietary_label]
+other = "Dietary restrictions or allergies"
+[rsvp_dietary_placeholder]
+other = "e.g. gluten-free, nut allergy — leave blank if none"
+[rsvp_song_label]
+other = "Song request for the dance floor 🎵"
+[rsvp_song_placeholder]
+other = "The song that will get you on the dance floor"
+[rsvp_message_label]
+other = "A note for Samuel & Lindsay"
+[rsvp_message_placeholder]
+other = "Share a wish, a memory, or just say hello…"
+[rsvp_submit_btn]
+other = "Send My RSVP"

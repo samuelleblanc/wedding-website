@@ -1,19 +1,59 @@
 <section class="registry section" id="registry">
+  <!-- Large barn silhouette with warm-lit windows -->
+  <div class="scene-layer scene-layer--bottom" data-parallax-speed="0.06" aria-hidden="true">
+    <svg viewBox="0 0 1440 520" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="barn-horizon" cx="50%" cy="100%" r="55%">
+          <stop offset="0%" stop-color="#3A1D09" stop-opacity="0.65"/>
+          <stop offset="100%" stop-color="#1A0D08" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect x="0" y="0" width="1440" height="520" fill="url(#barn-horizon)"/>
+      <path d="M0,470 Q180,440 360,458 Q540,476 720,448 Q900,420 1080,452 Q1260,484 1440,462 L1440,520 L0,520 Z" fill="#0F0703"/>
+      <rect x="340" y="200" width="760" height="320" fill="#1D0E06"/>
+      <polygon points="290,200 720,38 1150,200" fill="#190C05"/>
+      <path d="M692,112 Q720,86 748,112 L748,148 L692,148 Z" fill="#C9622F" opacity="0.28"/>
+      <path d="M692,112 Q720,86 748,112 L748,148 L692,148 Z" fill="#0C0502" opacity="0.5"/>
+      <path d="M558,520 L558,355 Q594,318 630,318 Q666,318 702,355 L702,520 Z" fill="#110704"/>
+      <path d="M738,520 L738,355 Q774,318 810,318 Q846,318 882,355 L882,520 Z" fill="#110704"/>
+      <path d="M558,520 L558,355 Q594,318 630,318 Q666,318 702,355 L702,520 Z" fill="#C9622F" opacity="0.07"/>
+      <path d="M738,520 L738,355 Q774,318 810,318 Q846,318 882,355 L882,520 Z" fill="#C9622F" opacity="0.07"/>
+      <rect x="365" y="258" width="88" height="68" rx="3" fill="#110704"/>
+      <rect x="365" y="258" width="88" height="68" rx="3" fill="#C9622F" opacity="0.22"/>
+      <rect x="987" y="258" width="88" height="68" rx="3" fill="#110704"/>
+      <rect x="987" y="258" width="88" height="68" rx="3" fill="#C9622F" opacity="0.22"/>
+      <rect x="1112" y="148" width="68" height="372" fill="#190C05"/>
+      <ellipse cx="1146" cy="148" rx="34" ry="13" fill="#190C05"/>
+      <path d="M1112,148 Q1146,128 1180,148" fill="#150A04"/>
+      <rect x="702" y="18" width="36" height="24" fill="#160B04"/>
+      <polygon points="695,18 720,4 745,18" fill="#130904"/>
+      <rect x="230" y="458" width="7" height="52" fill="#130803" opacity="0.7"/>
+      <rect x="315" y="454" width="7" height="56" fill="#130803" opacity="0.7"/>
+      <rect x="400" y="452" width="7" height="58" fill="#130803" opacity="0.7"/>
+      <rect x="496" y="450" width="7" height="60" fill="#130803" opacity="0.7"/>
+      <rect x="944" y="450" width="7" height="60" fill="#130803" opacity="0.7"/>
+      <rect x="1040" y="452" width="7" height="58" fill="#130803" opacity="0.7"/>
+      <rect x="1125" y="454" width="7" height="56" fill="#130803" opacity="0.7"/>
+      <rect x="1210" y="458" width="7" height="52" fill="#130803" opacity="0.7"/>
+      <rect x="234" y="472" width="980" height="5" fill="#130803" opacity="0.65"/>
+      <rect x="234" y="490" width="980" height="5" fill="#130803" opacity="0.65"/>
+    </svg>
+  </div>
   <div class="container">
     <div class="fade-in">
-      <span class="section-label">Gifts</span>
-      <h2 class="section-title section-title--light">Registry</h2>
+      <span class="section-label">{{ T "registry_label" }}</span>
+      <h2 class="section-title section-title--light">{{ T "registry_title" }}</h2>
       <div class="divider divider--light"><span class="divider-icon">✦</span></div>
-      <p class="registry-note">Your presence at our wedding is the greatest gift of all. For those who wish to give, our registry details will be shared here soon.</p>
+      <p class="registry-note">{{ T "registry_note" }}</p>
     </div>
     <div class="registry-cards fade-in">
       <div class="registry-card registry-card--placeholder">
-        <p class="registry-card-name">Coming Soon</p>
-        <p class="registry-card-sub">Registry link will be added here</p>
+        <p class="registry-card-name">{{ T "registry_placeholder_name" }}</p>
+        <p class="registry-card-sub">{{ T "registry_placeholder_sub" }}</p>
       </div>
       <div class="registry-card registry-card--placeholder">
-        <p class="registry-card-name">Coming Soon</p>
-        <p class="registry-card-sub">Registry link will be added here</p>
+        <p class="registry-card-name">{{ T "registry_placeholder_name" }}</p>
+        <p class="registry-card-sub">{{ T "registry_placeholder_sub" }}</p>
       </div>
     </div>
   </div>

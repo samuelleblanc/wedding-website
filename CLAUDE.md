@@ -14,6 +14,11 @@ hugo --minify        # production build → public/
 
 Hugo was installed via winget: `winget install Hugo.Hugo.Extended`
 
+> **Note:** Hugo is not on the git bash PATH. Use PowerShell to run Hugo commands from a bash session:
+> ```bash
+> powershell.exe -Command "& { \$env:PATH += ';C:\Users\sleblan2\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe'; hugo --minify 2>&1 }"
+> ```
+
 ## Design system
 
 **Palette**

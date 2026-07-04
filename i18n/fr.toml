@@ -1,0 +1,245 @@
+# ── Héros ─────────────────────────────────────────────────────
+[hero_eyebrow]
+other = "Vous êtes cordialement invité(e) à célébrer"
+[hero_countdown_days]
+other = "Jours"
+[hero_countdown_hours]
+other = "Heures"
+[hero_countdown_minutes]
+other = "Minutes"
+[hero_countdown_seconds]
+other = "Secondes"
+[hero_rsvp_btn]
+other = "RSVP maintenant"
+[hero_story_btn]
+other = "Notre Histoire"
+
+# ── Notre Histoire ────────────────────────────────────────────
+[story_label]
+other = "Comment tout a commencé"
+[story_title]
+other = "Notre Histoire"
+[story_details_btn]
+other = "Les Détails du Mariage"
+[story_photo_placeholder]
+other = "Photo à venir"
+
+# ── Détails ───────────────────────────────────────────────────
+[details_label]
+other = "Retenez la date"
+[details_title]
+other = "Le Mariage"
+[ceremony_title]
+other = "Cérémonie"
+[reception_title]
+other = "Réception"
+[label_date]
+other = "Date"
+[label_time]
+other = "Heure"
+[label_location]
+other = "Lieu"
+[label_attire]
+other = "Tenue"
+[label_dinner]
+other = "Souper"
+[label_music]
+other = "Musique"
+[ceremony_date_value]
+other = "Samedi, le 19 septembre 2026"
+[ceremony_time_value]
+other = "15 h 00"
+[ceremony_location_line1]
+other = "Roaring Camp Railroads"
+[ceremony_location_line2]
+other = "5401 Graham Hill Rd, Felton, CA 95018"
+[ceremony_attire_value]
+other = "Tenue de soirée champêtre — pensez aux tons terreux, aux fleurs et aux chaussures confortables pour les sentiers de séquoias"
+[reception_time_value]
+other = "16 h 15 – 22 h 00"
+[reception_location_value]
+other = "Roaring Camp Railroads — Bosquet de séquoias"
+[reception_dinner_value]
+other = "Dîner assis avec cocktail à la suite de la cérémonie"
+[reception_music_value]
+other = "Danse sous les séquoias jusqu'à 22 h 00"
+
+# ── Lieu ──────────────────────────────────────────────────────
+[venue_label]
+other = "Là où nous célébrerons"
+[venue_p1]
+other = "Niché au cœur des montagnes de Santa Cruz, Roaring Camp est l'un des endroits les plus féeriques du nord de la Californie. D'anciens séquoias côtiers — certains âgés de plus de 1 800 ans — seront les témoins silencieux du jour où nous dirons « oui »."
+[venue_p2]
+other = "Le site longe le ruisseau Bear Creek, entouré de forêts de séquoias anciens, du parfum des pins et du doux bruit d'un chemin de fer à voie étroite serpentant à travers la forêt."
+[venue_fact1_title]
+other = "5401 Graham Hill Rd"
+[venue_fact1_sub]
+other = "Felton, CA 95018"
+[venue_fact2_title]
+other = "~40 min de San Jose"
+[venue_fact2_sub]
+other = "~15 min de Santa Cruz"
+[venue_fact3_title]
+other = "Stationnement gratuit"
+[venue_fact3_sub]
+other = "Sur le site du lieu"
+[venue_fact4_title]
+other = "Cérémonie en plein air"
+[venue_fact4_sub]
+other = "Plan de secours prévu"
+
+# ── Programme ─────────────────────────────────────────────────
+[schedule_label]
+other = "19 septembre 2026"
+[schedule_title]
+other = "La Journée"
+[schedule_1_time]
+other = "14 h 15"
+[schedule_1_title]
+other = "Arrivée des invités"
+[schedule_1_desc]
+other = "Boissons de bienvenue servies dans le bosquet de séquoias"
+[schedule_2_time]
+other = "15 h 00"
+[schedule_2_title]
+other = "Cérémonie"
+[schedule_2_desc]
+other = "Nous disons « oui » sous les séquoias millénaires"
+[schedule_3_time]
+other = "15 h 15"
+[schedule_3_title]
+other = "Départ du train"
+[schedule_3_desc]
+other = "Notre train à vapeur à voie étroite vous transporte à travers l'ancienne forêt jusqu'au lieu de la cérémonie"
+[schedule_4_time]
+other = "16 h 15"
+[schedule_4_title]
+other = "Cocktail"
+[schedule_4_desc]
+other = "Amuse-bouches, boissons et jeux de pelouse"
+[schedule_5_time]
+other = "17 h 30"
+[schedule_5_title]
+other = "Souper et discours"
+[schedule_5_desc]
+other = "Dîner assis sous les étoiles avec des mots touchants de ceux qu'on aime"
+[schedule_6_time]
+other = "19 h 30"
+[schedule_6_title]
+other = "Première danse et soirée dansante"
+[schedule_6_desc]
+other = "La piste de danse s'ouvre — nous espérons vous y voir"
+[schedule_7_time]
+other = "21 h 30"
+[schedule_7_title]
+other = "Dernière danse et au revoir"
+[schedule_7_desc]
+other = "Une dernière chanson avant d'entamer le reste de notre vie"
+[schedule_8_time]
+other = "22 h 00"
+[schedule_8_title]
+other = "Fermeture du lieu"
+[schedule_8_desc]
+other = "Bon retour — à bientôt de l'autre côté !"
+
+# ── Voyage et hébergement ─────────────────────────────────────
+[travel_label]
+other = "Comment y arriver et où séjourner"
+[travel_title]
+other = "Voyage et hébergement"
+[travel_air_title]
+other = "✈️ En avion"
+[travel_air_desc]
+other = "Les aéroports les plus proches sont <strong>San Jose (SJC)</strong> — à 45 min — et <strong>San Francisco (SFO)</strong>, à environ 75 min. Les deux offrent des voitures de location et des services de covoiturage."
+[travel_car_title]
+other = "🚗 En voiture"
+[travel_car_desc]
+other = "Depuis San Jose : Prenez l'autoroute 17 sud jusqu'à la sortie Felton/Mt. Hermon, puis suivez les panneaux vers Roaring Camp. Le stationnement sur le site est gratuit."
+[travel_hotel_title]
+other = "🏨 Où séjourner"
+[travel_hotel_desc]
+other = "Nous recommandons de séjourner à <strong>Santa Cruz</strong> (15 min) ou à <strong>Scotts Valley</strong> (10 min). Un bloc de chambres sera disponible prochainement — revenez ici pour le lien."
+[travel_hotel_link]
+other = "Bloc de chambres à venir →"
+[travel_rideshare_title]
+other = "🚕 Se déplacer"
+[travel_rideshare_desc]
+other = "Nous encourageons les services de covoiturage (Uber/Lyft) pour que tout le monde puisse célébrer librement. Le lieu est situé au bout du chemin Graham Hill — prévoir du temps supplémentaire pour les caprices du GPS dans les montagnes."
+
+# ── Liste de mariage ──────────────────────────────────────────
+[registry_label]
+other = "Cadeaux"
+[registry_title]
+other = "Liste de mariage"
+[registry_note]
+other = "Votre présence à notre mariage est le plus beau des cadeaux. Pour ceux et celles qui souhaitent offrir un présent, les détails de notre liste de mariage seront partagés ici prochainement."
+[registry_placeholder_name]
+other = "À venir"
+[registry_placeholder_sub]
+other = "Le lien du registre sera ajouté ici"
+
+# ── Pied de page ──────────────────────────────────────────────
+[footer_date]
+other = "19 septembre 2026 · Roaring Camp, Felton CA"
+[footer_love]
+other = "Fait avec amour et magie de séquoias"
+
+# ── Page RSVP ─────────────────────────────────────────────────
+[rsvp_deadline]
+other = "Merci de répondre avant le 1er août 2026"
+[rsvp_disabled_title]
+other = "Invitations à venir"
+[rsvp_disabled_text]
+other = "Nous peaufinons encore les derniers détails. Revenez ici une fois votre invitation reçue — vous pourrez vous inscrire directement sur cette page."
+[rsvp_lookup_label]
+other = "Entrez l'adresse courriel de votre invitation pour commencer"
+[rsvp_lookup_btn]
+other = "Trouver mon invitation"
+[rsvp_welcome_msg]
+other = "Nous sommes si heureux que vous puissiez être là — veuillez remplir vos coordonnées ci-dessous"
+[rsvp_attending_question]
+other = "Serez-vous présent(e) ?"
+[rsvp_accept]
+other = "Accepte avec joie"
+[rsvp_decline]
+other = "Décline avec regret"
+[rsvp_meal_section]
+other = "Préférence de repas"
+[rsvp_meal_label]
+other = "Choix de plat principal"
+[rsvp_meal_placeholder]
+other = "— veuillez choisir —"
+[rsvp_plus_one_section]
+other = "Votre accompagnateur/accompagnatrice"
+[rsvp_plus_one_name_label]
+other = "Nom de l'invité(e)"
+[rsvp_plus_one_name_placeholder]
+other = "Nom complet"
+[rsvp_plus_one_meal_label]
+other = "Son plat principal"
+[rsvp_children_section]
+other = "Enfants"
+[rsvp_children_count_label]
+other = "Nombre d'enfants présents"
+[rsvp_children_meal_label]
+other = "Repas des enfants"
+[rsvp_child_meal_chicken]
+other = "Poulet (enfants)"
+[rsvp_child_meal_pasta]
+other = "Pâtes (enfants)"
+[rsvp_child_meal_veg]
+other = "Végétarien (enfants)"
+[rsvp_dietary_label]
+other = "Restrictions alimentaires ou allergies"
+[rsvp_dietary_placeholder]
+other = "p. ex. sans gluten, allergie aux noix — laisser vide si aucune"
+[rsvp_song_label]
+other = "Demande de chanson pour la piste de danse 🎵"
+[rsvp_song_placeholder]
+other = "La chanson qui vous fera danser"
+[rsvp_message_label]
+other = "Un mot pour Samuel et Lindsay"
+[rsvp_message_placeholder]
+other = "Partagez un vœu, un souvenir, ou dites simplement bonjour…"
+[rsvp_submit_btn]
+other = "Envoyer mon RSVP"

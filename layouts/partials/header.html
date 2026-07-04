@@ -1,12 +1,15 @@
 <header class="site-header" id="site-header">
   <nav class="nav-inner">
-    <a href="/" class="nav-logo" aria-label="Home">S <span class="nav-logo-amp">&amp;</span> L</a>
+    <a href="{{ if eq site.Language.Lang "fr" }}/fr/{{ else }}/{{ end }}" class="nav-logo" aria-label="Home">S <span class="nav-logo-amp">&amp;</span> L</a>
     <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links" id="nav-links">
       {{ range site.Menus.main }}
       <li><a href="{{ .URL }}" class="nav-link{{ if eq .Name "RSVP" }} nav-link--rsvp{{ end }}">{{ .Name }}</a></li>
+      {{ end }}
+      {{ range .Translations }}
+      <li><a href="{{ .Permalink }}" class="nav-link nav-link--lang" hreflang="{{ .Language.Lang }}">{{ upper .Language.Lang }}</a></li>
       {{ end }}
     </ul>
   </nav>

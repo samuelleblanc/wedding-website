@@ -3,13 +3,13 @@
   <div class="rsvp-container">
     <header class="rsvp-header fade-in">
       <span class="script-title">RSVP</span>
-      <p>Please respond by August 1, 2026</p>
+      <p>{{ T "rsvp_deadline" }}</p>
     </header>
 
     {{ if not site.Params.rsvpEnabled }}
     <div class="rsvp-disabled fade-in">
-      <h2>Invitations Coming Soon</h2>
-      <p>We're still putting the finishing touches on things. Check back here once you receive your invitation — you'll be able to RSVP right on this page.</p>
+      <h2>{{ T "rsvp_disabled_title" }}</h2>
+      <p>{{ T "rsvp_disabled_text" }}</p>
     </div>
     {{ else }}
     <div class="rsvp-form-box fade-in">
@@ -17,7 +17,7 @@
       <!-- Step 1: Email lookup -->
       <div class="rsvp-step" id="rsvp-step-lookup">
         <label class="rsvp-lookup-label" for="rsvp-email">
-          Enter the email address on your invitation to get started
+          {{ T "rsvp_lookup_label" }}
         </label>
         <div class="rsvp-field-group">
           <input
@@ -27,7 +27,7 @@
             placeholder="your@email.com"
             autocomplete="email"
             required>
-          <button type="button" class="btn btn-primary" id="rsvp-lookup-btn">Find My Invitation</button>
+          <button type="button" class="btn btn-primary" id="rsvp-lookup-btn">{{ T "rsvp_lookup_btn" }}</button>
         </div>
         <div class="form-error" id="rsvp-lookup-error"></div>
       </div>
@@ -36,7 +36,7 @@
       <div id="rsvp-step-form" class="rsvp-step--hidden">
         <div class="rsvp-welcome" id="rsvp-welcome">
           <h2 id="rsvp-guest-name"></h2>
-          <p>We're so glad you can make it — please fill in your details below</p>
+          <p>{{ T "rsvp_welcome_msg" }}</p>
         </div>
 
         <div class="rsvp-step">
@@ -45,14 +45,14 @@
 
             <!-- Attendance -->
             <div class="form-section">
-              <p class="form-section-title">Will you be attending?</p>
+              <p class="form-section-title">{{ T "rsvp_attending_question" }}</p>
               <div class="form-field">
                 <div class="form-radio-group">
                   <label class="form-radio-label">
-                    <input type="radio" name="attending" value="yes" required> Joyfully accepts
+                    <input type="radio" name="attending" value="yes" required> {{ T "rsvp_accept" }}
                   </label>
                   <label class="form-radio-label">
-                    <input type="radio" name="attending" value="no"> Regretfully declines
+                    <input type="radio" name="attending" value="no"> {{ T "rsvp_decline" }}
                   </label>
                 </div>
               </div>
@@ -63,11 +63,11 @@
 
               <!-- Primary guest meal -->
               <div class="form-section">
-                <p class="form-section-title">Your Meal Preference</p>
+                <p class="form-section-title">{{ T "rsvp_meal_section" }}</p>
                 <div class="form-field">
-                  <label class="form-label" for="meal">Entrée selection</label>
+                  <label class="form-label" for="meal">{{ T "rsvp_meal_label" }}</label>
                   <select id="meal" name="meal" class="form-input">
-                    <option value="">— please choose —</option>
+                    <option value="">{{ T "rsvp_meal_placeholder" }}</option>
                     {{ range site.Params.mealOptions }}
                     <option value="{{ . }}">{{ . }}</option>
                     {{ end }}
@@ -77,16 +77,16 @@
 
               <!-- Plus-one (shown only if allowed) -->
               <div id="rsvp-plus-one" class="form-section form-collapsible">
-                <p class="form-section-title">Your Plus-One</p>
+                <p class="form-section-title">{{ T "rsvp_plus_one_section" }}</p>
                 <div class="form-row">
                   <div class="form-field">
-                    <label class="form-label" for="plus_one_name">Guest name</label>
-                    <input type="text" id="plus_one_name" name="plus_one_name" class="form-input" placeholder="Full name">
+                    <label class="form-label" for="plus_one_name">{{ T "rsvp_plus_one_name_label" }}</label>
+                    <input type="text" id="plus_one_name" name="plus_one_name" class="form-input" placeholder="{{ T "rsvp_plus_one_name_placeholder" }}">
                   </div>
                   <div class="form-field">
-                    <label class="form-label" for="plus_one_meal">Their entrée</label>
+                    <label class="form-label" for="plus_one_meal">{{ T "rsvp_plus_one_meal_label" }}</label>
                     <select id="plus_one_meal" name="plus_one_meal" class="form-input">
-                      <option value="">— please choose —</option>
+                      <option value="">{{ T "rsvp_meal_placeholder" }}</option>
                       {{ range site.Params.mealOptions }}
                       <option value="{{ . }}">{{ . }}</option>
                       {{ end }}
@@ -97,10 +97,10 @@
 
               <!-- Children (shown only if allowed) -->
               <div id="rsvp-children" class="form-section form-collapsible">
-                <p class="form-section-title">Children</p>
+                <p class="form-section-title">{{ T "rsvp_children_section" }}</p>
                 <div class="form-row">
                   <div class="form-field">
-                    <label class="form-label" for="children_count">Number of children attending</label>
+                    <label class="form-label" for="children_count">{{ T "rsvp_children_count_label" }}</label>
                     <select id="children_count" name="children_count" class="form-input">
                       <option value="0">0</option>
                       <option value="1">1</option>
@@ -110,12 +110,12 @@
                     </select>
                   </div>
                   <div class="form-field">
-                    <label class="form-label" for="children_meal">Children's meal</label>
+                    <label class="form-label" for="children_meal">{{ T "rsvp_children_meal_label" }}</label>
                     <select id="children_meal" name="children_meal" class="form-input">
-                      <option value="">— please choose —</option>
-                      <option value="Kids Chicken">Kids Chicken</option>
-                      <option value="Kids Pasta">Kids Pasta</option>
-                      <option value="Kids Vegetarian">Kids Vegetarian</option>
+                      <option value="">{{ T "rsvp_meal_placeholder" }}</option>
+                      <option value="Kids Chicken">{{ T "rsvp_child_meal_chicken" }}</option>
+                      <option value="Kids Pasta">{{ T "rsvp_child_meal_pasta" }}</option>
+                      <option value="Kids Vegetarian">{{ T "rsvp_child_meal_veg" }}</option>
                     </select>
                   </div>
                 </div>
@@ -124,8 +124,8 @@
               <!-- Dietary restrictions -->
               <div class="form-section">
                 <div class="form-field">
-                  <label class="form-label" for="dietary">Dietary restrictions or allergies</label>
-                  <input type="text" id="dietary" name="dietary_restrictions" class="form-input" placeholder="e.g. gluten-free, nut allergy — leave blank if none">
+                  <label class="form-label" for="dietary">{{ T "rsvp_dietary_label" }}</label>
+                  <input type="text" id="dietary" name="dietary_restrictions" class="form-input" placeholder="{{ T "rsvp_dietary_placeholder" }}">
                 </div>
               </div>
             </div>
@@ -133,18 +133,18 @@
             <!-- Song + message (shown for both yes and no) -->
             <div class="form-section" id="rsvp-extras">
               <div class="form-field">
-                <label class="form-label" for="song_request">Song request for the dance floor 🎵</label>
-                <input type="text" id="song_request" name="song_request" class="form-input" placeholder="The song that will get you on the dance floor">
+                <label class="form-label" for="song_request">{{ T "rsvp_song_label" }}</label>
+                <input type="text" id="song_request" name="song_request" class="form-input" placeholder="{{ T "rsvp_song_placeholder" }}">
               </div>
               <div class="form-field">
-                <label class="form-label" for="message">A note for Samuel &amp; Lindsay</label>
-                <textarea id="message" name="message" class="form-input" placeholder="Share a wish, a memory, or just say hello…"></textarea>
+                <label class="form-label" for="message">{{ T "rsvp_message_label" }}</label>
+                <textarea id="message" name="message" class="form-input" placeholder="{{ T "rsvp_message_placeholder" }}"></textarea>
               </div>
             </div>
 
             <div class="form-section" style="text-align: center;">
               <button type="submit" class="btn btn-primary" id="rsvp-submit-btn" style="min-width: 200px;">
-                Send My RSVP
+                {{ T "rsvp_submit_btn" }}
               </button>
               <div class="form-error" id="rsvp-submit-error" style="margin-top: 1rem;"></div>
               <div class="form-success" id="rsvp-submit-success" style="margin-top: 1rem;"></div>

@@ -1,65 +1,97 @@
 <section class="schedule section" id="schedule">
+  <!-- Train tracks in forest (lighter treatment for cream bg) -->
+  <div class="scene-layer scene-layer--bottom" data-parallax-speed="0.12" aria-hidden="true">
+    <svg viewBox="0 0 1440 520" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,520 L0,290 L20,250 L30,270 L50,225 L65,248 L80,215 L90,240 L105,200 L115,225 L130,185 L145,210 L160,175 L170,520 Z" fill="#1E2E1C" opacity="0.16"/>
+      <path d="M1440,520 L1440,290 L1420,250 L1410,270 L1390,225 L1375,248 L1360,215 L1350,240 L1335,200 L1325,225 L1310,185 L1295,210 L1280,175 L1270,520 Z" fill="#1E2E1C" opacity="0.16"/>
+      <path d="M145,520 L710,30 L730,30 L1295,520 Z" fill="#1A2818" opacity="0.12"/>
+      <rect x="145" y="513" width="1150" height="14" fill="#182615" opacity="0.22"/>
+      <rect x="170" y="490" width="1100" height="13" fill="#182615" opacity="0.22"/>
+      <rect x="204" y="462" width="1032" height="12" fill="#182615" opacity="0.22"/>
+      <rect x="246" y="429" width="948" height="11" fill="#182615" opacity="0.22"/>
+      <rect x="292" y="391" width="856" height="10" fill="#182615" opacity="0.22"/>
+      <rect x="341" y="350" width="758" height="9" fill="#182615" opacity="0.22"/>
+      <rect x="400" y="302" width="640" height="8" fill="#182615" opacity="0.22"/>
+      <rect x="459" y="255" width="522" height="7" fill="#182615" opacity="0.22"/>
+      <rect x="512" y="212" width="416" height="7" fill="#182615" opacity="0.22"/>
+      <rect x="559" y="172" width="322" height="6" fill="#182615" opacity="0.22"/>
+      <rect x="604" y="136" width="232" height="5" fill="#182615" opacity="0.22"/>
+      <rect x="644" y="101" width="152" height="5" fill="#182615" opacity="0.22"/>
+      <rect x="676" y="70" width="88" height="4" fill="#182615" opacity="0.22"/>
+      <rect x="698" y="50" width="44" height="4" fill="#182615" opacity="0.22"/>
+      <path d="M185,520 L717,30" stroke="#162413" stroke-width="10" stroke-linecap="round" opacity="0.25"/>
+      <path d="M1255,520 L723,30" stroke="#162413" stroke-width="10" stroke-linecap="round" opacity="0.25"/>
+    </svg>
+  </div>
   <div class="container">
     <div class="fade-in" style="text-align: center; margin-bottom: 3.5rem;">
-      <span class="section-label">September 19, 2026</span>
-      <h2 class="section-title">The Day</h2>
+      <span class="section-label">{{ T "schedule_label" }}</span>
+      <h2 class="section-title">{{ T "schedule_title" }}</h2>
       <div class="divider"><span class="divider-icon" style="color: var(--clr-blue);">✦</span></div>
     </div>
     <div class="timeline">
       <div class="timeline-item fade-in">
-        <span class="timeline-time">3:30 PM</span>
+        <span class="timeline-time">{{ T "schedule_1_time" }}</span>
         <div class="timeline-dot"></div>
         <div class="timeline-body">
-          <h3>Guests Arrive</h3>
-          <p>Welcome drinks served in the redwood grove</p>
+          <h3>{{ T "schedule_1_title" }}</h3>
+          <p>{{ T "schedule_1_desc" }}</p>
         </div>
       </div>
       <div class="timeline-item fade-in">
-        <span class="timeline-time">4:00 PM</span>
+        <span class="timeline-time">{{ T "schedule_2_time" }}</span>
         <div class="timeline-dot timeline-dot--featured"></div>
         <div class="timeline-body">
-          <h3>Ceremony</h3>
-          <p>We say "I do" beneath the ancient redwoods</p>
+          <h3>{{ T "schedule_2_title" }}</h3>
+          <p>{{ T "schedule_2_desc" }}</p>
         </div>
       </div>
       <div class="timeline-item fade-in">
-        <span class="timeline-time">4:45 PM</span>
-        <div class="timeline-dot"></div>
-        <div class="timeline-body">
-          <h3>Cocktail Hour</h3>
-          <p>Hors d'oeuvres, drinks &amp; lawn games</p>
-        </div>
-      </div>
-      <div class="timeline-item fade-in">
-        <span class="timeline-time">5:30 PM</span>
+        <span class="timeline-time">{{ T "schedule_3_time" }}</span>
         <div class="timeline-dot timeline-dot--featured"></div>
         <div class="timeline-body">
-          <h3>Dinner &amp; Toasts</h3>
-          <p>Seated dinner under the stars with heartfelt words from those we love</p>
+          <h3>{{ T "schedule_3_title" }}</h3>
+          <p>{{ T "schedule_3_desc" }}</p>
         </div>
       </div>
       <div class="timeline-item fade-in">
-        <span class="timeline-time">7:30 PM</span>
+        <span class="timeline-time">{{ T "schedule_4_time" }}</span>
         <div class="timeline-dot"></div>
         <div class="timeline-body">
-          <h3>First Dance &amp; Dancing</h3>
-          <p>The dance floor opens — we hope to see you out there</p>
+          <h3>{{ T "schedule_4_title" }}</h3>
+          <p>{{ T "schedule_4_desc" }}</p>
         </div>
       </div>
       <div class="timeline-item fade-in">
-        <span class="timeline-time">9:30 PM</span>
-        <div class="timeline-dot"></div>
+        <span class="timeline-time">{{ T "schedule_5_time" }}</span>
+        <div class="timeline-dot timeline-dot--featured"></div>
         <div class="timeline-body">
-          <h3>Last Dance &amp; Send-off</h3>
-          <p>One last song before we head into the rest of our lives</p>
+          <h3>{{ T "schedule_5_title" }}</h3>
+          <p>{{ T "schedule_5_desc" }}</p>
         </div>
       </div>
       <div class="timeline-item fade-in">
-        <span class="timeline-time">10:00 PM</span>
+        <span class="timeline-time">{{ T "schedule_6_time" }}</span>
         <div class="timeline-dot"></div>
         <div class="timeline-body">
-          <h3>Venue Closes</h3>
-          <p>Safe travels — see you on the other side!</p>
+          <h3>{{ T "schedule_6_title" }}</h3>
+          <p>{{ T "schedule_6_desc" }}</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <span class="timeline-time">{{ T "schedule_7_time" }}</span>
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <h3>{{ T "schedule_7_title" }}</h3>
+          <p>{{ T "schedule_7_desc" }}</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <span class="timeline-time">{{ T "schedule_8_time" }}</span>
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <h3>{{ T "schedule_8_title" }}</h3>
+          <p>{{ T "schedule_8_desc" }}</p>
         </div>
       </div>
     </div>
