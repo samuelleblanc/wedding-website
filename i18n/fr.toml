@@ -13,6 +13,10 @@ other = "Secondes"
 other = "RSVP maintenant"
 [hero_story_btn]
 other = "Notre Histoire"
+[hero_canada_date]
+other = "Début octobre 2026"
+[hero_canada_location]
+other = "Nouveau-Brunswick, Canada"
 
 # ── Notre Histoire ────────────────────────────────────────────
 [story_label]
@@ -48,7 +52,7 @@ other = "Musique"
 [ceremony_date_value]
 other = "Samedi, le 19 septembre 2026"
 [ceremony_time_value]
-other = "15 h 00"
+other = "14 h 00"
 [ceremony_location_line1]
 other = "Roaring Camp Railroads"
 [ceremony_location_line2]
@@ -94,19 +98,19 @@ other = "19 septembre 2026"
 [schedule_title]
 other = "La Journée"
 [schedule_1_time]
-other = "14 h 15"
+other = "13 h 15"
 [schedule_1_title]
 other = "Arrivée des invités"
 [schedule_1_desc]
 other = "Bienvenue au Roaring Camp et direction jusqu'au train"
 [schedule_3_time]
-other = "15 h 30"
+other = "14 h 30"
 [schedule_3_title]
 other = "Cérémonie"
 [schedule_3_desc]
 other = "Nous disons « oui » dans un cercle de fées sous les séquoias (redwoods)"
 [schedule_2_time]
-other = "15 h 15"
+other = "14 h 15"
 [schedule_2_title]
 other = "Départ du train"
 [schedule_2_desc]
@@ -190,7 +194,7 @@ other = "Merci de répondre avant le 3 août 2026"
 [rsvp_disabled_title]
 other = "Invitations à venir"
 [rsvp_disabled_text]
-other = "Nous peaufinons encore les derniers détails. Revenez ici une fois votre invitation reçue — vous pourrez vous inscrire directement sur cette page."
+other = "Nous travaillons encore sur les derniers détails. Revenez ici une fois votre invitation reçue — vous pourrez vous inscrire sur le site de paperless post."
 [rsvp_lookup_label]
 other = "Entrez l'adresse courriel de votre invitation pour commencer"
 [rsvp_lookup_btn]
