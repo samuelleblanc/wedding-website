@@ -54,15 +54,15 @@ other = "Roaring Camp Railroads"
 [ceremony_location_line2]
 other = "5401 Graham Hill Rd, Felton, CA 95018"
 [ceremony_attire_value]
-other = "Garden formal — think earthy tones, florals, and comfortable shoes for redwood paths"
+other = "Garden formal — think fun bright colors and comfortable shoes for train and redwood paths"
 [reception_time_value]
 other = "4:15 PM – 10:00 PM"
 [reception_location_value]
-other = "Roaring Camp Railroads — Redwood Grove"
+other = "Roaring Camp Railroads — in the big barn - Bret Harte Hall"
 [reception_dinner_value]
 other = "Seated dinner with cocktail hour to follow the ceremony"
 [reception_music_value]
-other = "Dancing under the redwoods until 10:00 PM"
+other = "Dancing in the barn until 10:00 PM"
 
 # ── Venue ─────────────────────────────────────────────────────
 [venue_label]
@@ -96,20 +96,20 @@ other = "The Day"
 [schedule_1_time]
 other = "2:15 PM"
 [schedule_1_title]
-other = "Guests Arrive"
+other = "Guests Arrive at Roaring Camp"
 [schedule_1_desc]
-other = "Welcome drinks served in the redwood grove"
-[schedule_2_time]
-other = "3:00 PM"
-[schedule_2_title]
-other = "Ceremony"
-[schedule_2_desc]
-other = "We say \"I do\" beneath the ancient redwoods"
+other = "Make your way to the train"
 [schedule_3_time]
-other = "3:15 PM"
+other = "3:30 PM"
 [schedule_3_title]
-other = "Train Departs"
+other = "Ceremony"
 [schedule_3_desc]
+other = "We say \"I do\" beneath the ancient redwoods on Bear Creek Mountain"
+[schedule_2_time]
+other = "3:15 PM"
+[schedule_2_title]
+other = "Train Departs"
+[schedule_2_desc]
 other = "Our vintage narrow-gauge steam train carries you through the ancient forest to the ceremony site"
 [schedule_4_time]
 other = "4:15 PM"
@@ -122,7 +122,7 @@ other = "5:30 PM"
 [schedule_5_title]
 other = "Dinner & Toasts"
 [schedule_5_desc]
-other = "Seated dinner under the stars with heartfelt words from those we love"
+other = "Seated dinner in the barn with heartfelt words from those we love"
 [schedule_6_time]
 other = "7:30 PM"
 [schedule_6_title]
@@ -158,9 +158,9 @@ other = "From San Jose: Take Hwy 17 south to the Felton/Mt. Hermon exit, then fo
 [travel_hotel_title]
 other = "🏨 Where to Stay"
 [travel_hotel_desc]
-other = "We recommend staying in <strong>Santa Cruz</strong> (15 min) or <strong>Scotts Valley</strong> (10 min). A room block will be available soon — check back here for the link."
+other = "We recommend staying in <strong>Santa Cruz</strong> (15 min) or <strong>Scotts Valley</strong> (10 min). The hotel near our house is the Hampton Inn. Henry Cowells camping is nearby the Roaring Camp. More location recommendations to come."
 [travel_hotel_link]
-other = "Room block coming soon →"
+other = "More details coming soon"
 [travel_rideshare_title]
 other = "🚕 Getting Around"
 [travel_rideshare_desc]
@@ -186,7 +186,7 @@ other = "Made with love & redwood magic"
 
 # ── RSVP page ─────────────────────────────────────────────────
 [rsvp_deadline]
-other = "Please respond by August 1, 2026"
+other = "Please respond by August 3, 2026"
 [rsvp_disabled_title]
 other = "Invitations Coming Soon"
 [rsvp_disabled_text]

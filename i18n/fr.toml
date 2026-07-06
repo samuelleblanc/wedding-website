@@ -54,15 +54,15 @@ other = "Roaring Camp Railroads"
 [ceremony_location_line2]
 other = "5401 Graham Hill Rd, Felton, CA 95018"
 [ceremony_attire_value]
-other = "Tenue de soirée champêtre — pensez aux tons terreux, aux fleurs et aux chaussures confortables pour les sentiers de séquoias"
+other = "Tenue de soirée champêtre — pensez aux belles couleurs vibrantes et aux chaussures confortables pour les sentiers de séquoias et les tracks de trains"
 [reception_time_value]
 other = "16 h 15 – 22 h 00"
 [reception_location_value]
-other = "Roaring Camp Railroads — Bosquet de séquoias"
+other = "Roaring Camp Railroads — dans la grange - Bret Harte Hall"
 [reception_dinner_value]
 other = "Dîner assis avec cocktail à la suite de la cérémonie"
 [reception_music_value]
-other = "Danse sous les séquoias jusqu'à 22 h 00"
+other = "Danse dans la grange jusqu'à 22 h 00"
 
 # ── Lieu ──────────────────────────────────────────────────────
 [venue_label]
@@ -98,31 +98,31 @@ other = "14 h 15"
 [schedule_1_title]
 other = "Arrivée des invités"
 [schedule_1_desc]
-other = "Boissons de bienvenue servies dans le bosquet de séquoias"
-[schedule_2_time]
-other = "15 h 00"
-[schedule_2_title]
-other = "Cérémonie"
-[schedule_2_desc]
-other = "Nous disons « oui » sous les séquoias millénaires"
+other = "Bienvenue au Roaring Camp et direction jusqu'au train"
 [schedule_3_time]
-other = "15 h 15"
+other = "15 h 30"
 [schedule_3_title]
-other = "Départ du train"
+other = "Cérémonie"
 [schedule_3_desc]
+other = "Nous disons « oui » dans un cercle de fées sous les séquoias (redwoods)"
+[schedule_2_time]
+other = "15 h 15"
+[schedule_2_title]
+other = "Départ du train"
+[schedule_2_desc]
 other = "Notre train à vapeur à voie étroite vous transporte à travers l'ancienne forêt jusqu'au lieu de la cérémonie"
 [schedule_4_time]
 other = "16 h 15"
 [schedule_4_title]
 other = "Cocktail"
 [schedule_4_desc]
-other = "Amuse-bouches, boissons et jeux de pelouse"
+other = "Amuse-bouches, boissons et jeux de pelouse, une fois de retour au Roaring Camp"
 [schedule_5_time]
 other = "17 h 30"
 [schedule_5_title]
 other = "Souper et discours"
 [schedule_5_desc]
-other = "Dîner assis sous les étoiles avec des mots touchants de ceux qu'on aime"
+other = "Dîner assis dans la grange avec des mots touchants de ceux qu'on aime"
 [schedule_6_time]
 other = "19 h 30"
 [schedule_6_title]
@@ -158,9 +158,9 @@ other = "Depuis San Jose : Prenez l'autoroute 17 sud jusqu'à la sortie Felton/M
 [travel_hotel_title]
 other = "🏨 Où séjourner"
 [travel_hotel_desc]
-other = "Nous recommandons de séjourner à <strong>Santa Cruz</strong> (15 min) ou à <strong>Scotts Valley</strong> (10 min). Un bloc de chambres sera disponible prochainement — revenez ici pour le lien."
+other = "Nous recommandons de séjourner à <strong>Santa Cruz</strong> (15 min) ou à <strong>Scotts Valley</strong> (10 min). Le Hampton Inn est tout près de notre maison, tandis que le camping à Henry Cowells est jusque à côté du Roaring Camp."
 [travel_hotel_link]
-other = "Bloc de chambres à venir →"
+other = "Plus d'informations à venir →"
 [travel_rideshare_title]
 other = "🚕 Se déplacer"
 [travel_rideshare_desc]
@@ -186,7 +186,7 @@ other = "Fait avec amour et magie de séquoias"
 
 # ── Page RSVP ─────────────────────────────────────────────────
 [rsvp_deadline]
-other = "Merci de répondre avant le 1er août 2026"
+other = "Merci de répondre avant le 3 août 2026"
 [rsvp_disabled_title]
 other = "Invitations à venir"
 [rsvp_disabled_text]

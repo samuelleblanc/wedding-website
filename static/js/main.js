@@ -122,6 +122,32 @@
 })();
 
 /* ============================================================
+   Train track background parallax
+   Drives --train-bg-y so the fixed background drifts upward
+   as the user scrolls through the Venue + Schedule sections,
+   creating a parallax where the image moves at ~0.2x scroll rate.
+   ============================================================ */
+(function () {
+  var venueEl    = document.getElementById('venue');
+  var scheduleEl = document.getElementById('schedule');
+  if (!venueEl || !scheduleEl) return;
+
+  function updateTrainBg() {
+    var start = venueEl.offsetTop;
+    var end   = scheduleEl.offsetTop + scheduleEl.offsetHeight;
+    var mid   = window.scrollY + window.innerHeight / 2;
+    var t     = (mid - start) / (end - start);
+    t = t < 0 ? 0 : t > 1 ? 1 : t;
+    var bgY = 85 - t * 20;   // 85% → 65% over the two sections
+    document.documentElement.style.setProperty('--train-bg-y', bgY.toFixed(1) + '%');
+  }
+
+  window.addEventListener('scroll', updateTrainBg, { passive: true });
+  window.addEventListener('resize', updateTrainBg, { passive: true });
+  updateTrainBg();
+})();
+
+/* ============================================================
    Smooth scroll for anchor links
    ============================================================ */
 document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {

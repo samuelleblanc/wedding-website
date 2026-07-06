@@ -9,6 +9,7 @@
   --clr-heading:    #7B3F2A;
   --clr-orange:     #C9622F;
   --clr-orange-lt:  #E8845A;
+  --clr-sienna:     #B85030;
   --clr-blue:       #7EC8D8;
   --clr-blue-dk:    #4A9BAD;
   --clr-cream:      #FDFAF6;
@@ -17,7 +18,7 @@
 
   --font-script:  'Great Vibes', cursive;
   --font-serif:   'Cormorant Garamond', Georgia, serif;
-  --font-sans:    'Raleway', system-ui, sans-serif;
+  --font-sans:    'EB Garamond', Georgia, serif;
 
   --radius:  8px;
   --shadow:  0 4px 24px rgba(44, 24, 16, 0.12);
@@ -29,7 +30,7 @@
    ============================================================ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; font-size: 16px; }
+html { scroll-behavior: smooth; font-size: 18px; }
 
 body {
   font-family: var(--font-sans);
@@ -243,25 +244,33 @@ h1, h2, h3, h4 {
 
 .hero-eyebrow {
   font-family: var(--font-sans);
-  font-size: 0.72rem;
+  font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--clr-orange);
+  color: var(--clr-sienna);
   margin-bottom: 1.5rem;
   opacity: 0;
   animation: fadeUp 1s 0.3s ease forwards;
 }
 
 .hero-names {
-  font-family: var(--font-script);
-  font-size: clamp(4rem, 12vw, 9rem);
-  color: var(--clr-cream);
-  line-height: 1;
+  font-family: var(--font-sans);
+  font-size: clamp(3.5rem, 11vw, 8.5rem);
+  font-weight: 500;
+  font-style: italic;
+  color: var(--clr-sienna);
+  line-height: 1.05;
   margin-bottom: 1.5rem;
   opacity: 0;
   animation: fadeUp 1s 0.6s ease forwards;
-  text-shadow: 0 2px 40px rgba(201, 98, 47, 0.3);
+  text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.52),
+     1px -1px 0 rgba(0, 0, 0, 0.52),
+    -1px  1px 0 rgba(0, 0, 0, 0.52),
+     1px  1px 0 rgba(0, 0, 0, 0.52),
+     0 3px 36px rgba(160, 65, 30, 0.38);
+  letter-spacing: 0.02em;
 }
 
 .hero-details {
@@ -272,7 +281,7 @@ h1, h2, h3, h4 {
   flex-wrap: wrap;
   font-family: var(--font-serif);
   font-size: clamp(1rem, 2.5vw, 1.35rem);
-  color: rgba(253, 250, 246, 0.75);
+  color: rgba(184, 80, 48, 0.9);
   letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
   opacity: 0;
@@ -300,7 +309,7 @@ h1, h2, h3, h4 {
   font-family: var(--font-serif);
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 300;
-  color: var(--clr-cream);
+  color: var(--clr-sienna);
   line-height: 1;
 }
 
@@ -423,6 +432,14 @@ h1, h2, h3, h4 {
    Wedding Details
    ============================================================ */
 .details { background: var(--clr-bg); }
+.details::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/images/poppies_background.png') center / cover no-repeat;
+  opacity: 0.13;
+  pointer-events: none;
+}
 
 .details-grid {
   display: grid;
@@ -486,6 +503,15 @@ h1, h2, h3, h4 {
 .venue {
   background: var(--clr-bg-forest);
   color: var(--clr-cream);
+}
+.venue::before,
+.schedule::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/images/train_track_background.png') 50% var(--train-bg-y, 85%) / cover no-repeat fixed;
+  opacity: 0.5;
+  pointer-events: none;
 }
 
 .venue-grid {
@@ -1022,7 +1048,7 @@ textarea.form-input { resize: vertical; min-height: 90px; }
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .hero-img-layer--bottom > img { object-position: bottom center; }
 .hero-img-layer--top    > img { object-position: top center; }
