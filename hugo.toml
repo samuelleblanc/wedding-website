@@ -1,4 +1,4 @@
-baseURL = "https://samandlindsay.com/"
+baseURL = "https://www.crokerleblanc.love/"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 title = "Samuel & Lindsay"
@@ -11,7 +11,7 @@ enableGitInfo = false
   venue         = "Roaring Camp Railroads"
   venueCity     = "Felton, California"
   rsvpEnabled   = false   # flip to true when invitations go out
-  contactEmail  = "wedding@samandlindsay.com"
+  contactEmail  = "wedding@crokerleblanc.love"
   mealOptions   = ["Chicken", "Fish", "Vegetarian", "Vegan"]
 
 [languages]
