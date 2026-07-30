@@ -14,9 +14,9 @@ other = "RSVP maintenant"
 [hero_story_btn]
 other = "Notre Histoire"
 [hero_canada_date]
-other = "Début octobre 2026"
+other = "3 octobre 2026"
 [hero_canada_location]
-other = "Nouveau-Brunswick, Canada"
+other = "Bathurst Marina, Nouveau-Brunswick, Canada"
 
 # ── Notre Histoire ────────────────────────────────────────────
 [story_label]
