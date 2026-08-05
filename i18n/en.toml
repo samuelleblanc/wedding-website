@@ -37,6 +37,8 @@ other = "The Wedding"
 other = "Ceremony"
 [reception_title]
 other = "Reception"
+[party_title]
+other = "Canada Party 🇨🇦"
 [label_date]
 other = "Date"
 [label_time]
@@ -67,6 +69,16 @@ other = "Roaring Camp Railroads — in the big barn - Bret Harte Hall"
 other = "Seated dinner with cocktail hour to follow the ceremony"
 [reception_music_value]
 other = "Dancing in the barn until 10:00 PM"
+[party_attire_value]
+other = "Garden formal — think fun bright colors and comfortable shoes for dancing at the Marina"
+[party_time_value]
+other = "4:00 PM – Midnight+"
+[party_location_value]
+other = "Bathurst Marina - Youghall Beach, NB, Canada"
+[party_dinner_value]
+other = "Buffet dinner following short ceremony recap"
+[party_music_value]
+other = "Dancing at the Marina until late"
 
 # ── Venue ─────────────────────────────────────────────────────
 [venue_label]
