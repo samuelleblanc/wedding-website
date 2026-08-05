@@ -53,6 +53,8 @@ other = "Souper"
 other = "Musique"
 [ceremony_date_value]
 other = "Samedi, le 19 septembre 2026"
+[party_date_value]
+other = "Samedi, le 3 Octobre, 2026"
 [ceremony_time_value]
 other = "14 h 00"
 [ceremony_location_line1]
