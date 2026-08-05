@@ -37,6 +37,8 @@ other = "Le Mariage"
 other = "Cérémonie"
 [reception_title]
 other = "Réception"
+[party_title]
+other = "Fête au Canada 🇨🇦"
 [label_date]
 other = "Date"
 [label_time]
@@ -67,6 +69,16 @@ other = "Roaring Camp Railroads — dans la grange - Bret Harte Hall"
 other = "Dîner assis avec cocktail à la suite de la cérémonie"
 [reception_music_value]
 other = "Danse dans la grange jusqu'à 22 h 00"
+[party_attire_value]
+other = "Tenue de soirée pour un mariage — pensez un semi-formel aux belles couleurs vibrantes et aux chaussures confortables pour danser à la Marina toute la soirée"
+[party_time_value]
+other = "16h00 – Minuit et plus"
+[party_location_value]
+other = "Marina de Bathurst - Plage Youghall, NB, Canada"
+[party_dinner_value]
+other = "Souper à Buffet suivant une petite récapitulatif de notre cérémonie"
+[party_music_value]
+other = "Dance à la Marina jusqu'à tard"
 
 # ── Lieu ──────────────────────────────────────────────────────
 [venue_label]
