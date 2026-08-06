@@ -48,10 +48,12 @@
     </div>
     <div class="registry-cards fade-in">
       <div class="registry-card registry-card--placeholder">
-        <p class="registry-card-name"><a href={{ T "registry_placeholder_sub" }}> {{ T "registry_placeholder_name" }}</a></p>
+        <p class="registry-card-name"> {{ T "registry_placeholder_name" }}</p>
+        <a href={{ T "registry_placeholder_sub" }} aria-disabled="false" class="btn btn-dark" style="margin-top:1rem; pointer-events: auto !important; position: relative; z-index: 10;">
+          {{ T "registry_placeholder_link_name" }}</a>
       </div>
       <div class="registry-card registry-card--placeholder">
-        <p class="registry-card-name"><a href={{ T "registry_placeholder_sub2" }}>{{ T "registry_placeholder_name2" }}</a></p>
+        <p class="registry-card-name"><a href={{ T "registry_placeholder_sub2" }}a ria-disabled="true">{{ T "registry_placeholder_name2" }}</a></p>
       </div>
     </div>
   </div>
