@@ -195,6 +195,10 @@ other = "Your presence at our wedding is the greatest gift of all. For those who
 other = "Contribute to our Honeymoon in Iceland"
 [registry_placeholder_sub]
 other = "https://www.honeyfund.com/site/LindsayandSamuelAdventureAwaits"
+[registry_placeholder_name2]
+other = "More to come!"
+[registry_placeholder_sub2]
+other = ""
 
 # ── Footer ────────────────────────────────────────────────────
 [footer_date]
