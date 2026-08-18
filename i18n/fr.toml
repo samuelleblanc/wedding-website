@@ -193,6 +193,10 @@ other = "Liste de mariage"
 other = "Votre présence à notre mariage est le plus beau des cadeaux. Pour ceux et celles qui souhaitent offrir un présent, les détails de notre liste de mariage seront partagés ici prochainement."
 [registry_hf_url]
 other = "https://www.honeyfund.com/site/LindsayandSamuelAdventureAwaits"
+[registry_hf_img_url]
+other = "https://www.honeyfund.com/assets/img/destinations-default-covers/iceland/Iceland.jpg"
+[registry_hf_banner_names]
+other = "Lindsay &amp; Samuel"
 [registry_hf_source]
 other = "honeyfund.com"
 [registry_hf_name]

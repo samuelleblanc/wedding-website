@@ -193,6 +193,10 @@ other = "Registry"
 other = "Your presence at our wedding is the greatest gift of all. For those who wish to give, our registry details will be shared here soon."
 [registry_hf_url]
 other = "https://www.honeyfund.com/site/LindsayandSamuelAdventureAwaits"
+[registry_hf_img_url]
+other = "https://www.honeyfund.com/assets/img/destinations-default-covers/iceland/Iceland.jpg"
+[registry_hf_banner_names]
+other = "Lindsay &amp; Samuel"
 [registry_hf_source]
 other = "honeyfund.com"
 [registry_hf_name]
