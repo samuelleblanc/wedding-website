@@ -191,12 +191,14 @@ other = "Gifts"
 other = "Registry"
 [registry_note]
 other = "Your presence at our wedding is the greatest gift of all. For those who wish to give, our registry details will be shared here soon."
-[registry_placeholder_name]
-other = "Contribute to our Honeymoon in Iceland"
-[registry_placeholder_sub]
+[registry_hf_url]
 other = "https://www.honeyfund.com/site/LindsayandSamuelAdventureAwaits"
-[registry_placeholder_link_name]
-other = "Iceland"
+[registry_hf_source]
+other = "honeyfund.com"
+[registry_hf_name]
+other = "Adventure Awaits"
+[registry_hf_desc]
+other = "Lindsay &amp; Samuel's Honeymoon Fund — help us fund our dream adventure together."
 [registry_placeholder_name2]
 other = "More to come!"
 [registry_placeholder_sub2]

@@ -753,6 +753,38 @@ h1, h2, h3, h4 {
 .registry-card--placeholder .registry-card-sub {
   font-style: italic;
 }
+.registry-card--link-preview {
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  text-decoration: none;
+  width: 300px;
+}
+.registry-card-banner {
+  line-height: 0;
+}
+.registry-card-banner svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.registry-card-body {
+  padding: 1.1rem 1.5rem 1.4rem;
+}
+.registry-card-source {
+  display: block;
+  font-size: 0.7rem;
+  color: rgba(253,250,246,0.45);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+.registry-card-desc {
+  font-size: 0.85rem;
+  color: rgba(253,250,246,0.60);
+  line-height: 1.5;
+  margin-top: 0.35rem;
+}
 
 /* ============================================================
    RSVP page

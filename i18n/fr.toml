@@ -191,12 +191,14 @@ other = "Cadeaux"
 other = "Liste de mariage"
 [registry_note]
 other = "Votre présence à notre mariage est le plus beau des cadeaux. Pour ceux et celles qui souhaitent offrir un présent, les détails de notre liste de mariage seront partagés ici prochainement."
-[registry_placeholder_name]
-other = "Contribuer à notre lune de miel en Islande"
-[registry_placeholder_sub]
+[registry_hf_url]
 other = "https://www.honeyfund.com/site/LindsayandSamuelAdventureAwaits"
-[registry_placeholder_link_name]
-other = "Islande"
+[registry_hf_source]
+other = "honeyfund.com"
+[registry_hf_name]
+other = "L'aventure vous attend"
+[registry_hf_desc]
+other = "Fonds de lune de miel de Lindsay &amp; Samuel — aidez-nous à financer notre aventure de rêve ensemble."
 [registry_placeholder_name2]
 other = "Plus à venir"
 [registry_placeholder_sub2]
