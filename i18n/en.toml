@@ -56,7 +56,7 @@ other = "Saturday, September 19, 2026"
 [party_date_value]
 other = "Saturday, October 3, 2026"
 [ceremony_time_value]
-other = "2:00 PM"
+other = "3:15 PM"
 [ceremony_location_line1]
 other = "Roaring Camp Railroads"
 [ceremony_location_line2]
@@ -112,31 +112,31 @@ other = "September 19, 2026"
 [schedule_title]
 other = "The Day"
 [schedule_1_time]
-other = "1:15 PM"
+other = "2:30 PM"
 [schedule_1_title]
 other = "Guests Arrive at Roaring Camp"
 [schedule_1_desc]
 other = "Make your way to the train"
 [schedule_3_time]
-other = "2:30 PM"
+other = "3:45 PM"
 [schedule_3_title]
 other = "Ceremony"
 [schedule_3_desc]
 other = "We say \"I do\" beneath the ancient redwoods on Bear Creek Mountain"
 [schedule_2_time]
-other = "2:15 PM"
+other = "3:15 PM"
 [schedule_2_title]
 other = "Train Departs"
 [schedule_2_desc]
 other = "Our vintage narrow-gauge steam train carries you through the ancient forest to the ceremony site"
 [schedule_4_time]
-other = "4:15 PM"
+other = "5:15 PM"
 [schedule_4_title]
 other = "Cocktail Hour"
 [schedule_4_desc]
 other = "Hors d'oeuvres, drinks & lawn games"
 [schedule_5_time]
-other = "5:30 PM"
+other = "6:30 PM"
 [schedule_5_title]
 other = "Dinner & Toasts"
 [schedule_5_desc]

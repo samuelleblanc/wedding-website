@@ -112,31 +112,31 @@ other = "19 septembre 2026"
 [schedule_title]
 other = "La Journée"
 [schedule_1_time]
-other = "13 h 15"
+other = "14 h 30"
 [schedule_1_title]
 other = "Arrivée des invités"
 [schedule_1_desc]
 other = "Bienvenue au Roaring Camp et direction jusqu'au train"
 [schedule_3_time]
-other = "14 h 30"
+other = "15 h 45"
 [schedule_3_title]
 other = "Cérémonie"
 [schedule_3_desc]
 other = "Nous disons « oui » dans un cercle de fées sous les séquoias (redwoods)"
 [schedule_2_time]
-other = "14 h 15"
+other = "15 h 15"
 [schedule_2_title]
 other = "Départ du train"
 [schedule_2_desc]
 other = "Notre train à vapeur à voie étroite vous transporte à travers l'ancienne forêt jusqu'au lieu de la cérémonie"
 [schedule_4_time]
-other = "16 h 15"
+other = "17 h 15"
 [schedule_4_title]
 other = "Cocktail"
 [schedule_4_desc]
 other = "Amuse-bouches, boissons et jeux de pelouse, une fois de retour au Roaring Camp"
 [schedule_5_time]
-other = "17 h 30"
+other = "18 h 30"
 [schedule_5_title]
 other = "Souper et discours"
 [schedule_5_desc]
