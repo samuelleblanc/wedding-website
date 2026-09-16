@@ -183,6 +183,11 @@ other = "On a hâte de vous voir!"
 other = "🚕 Se déplacer"
 [travel_rideshare_desc]
 other = "Nous encourageons les services de covoiturage (Uber/Lyft) pour que tout le monde puisse célébrer librement. Le lieu est situé au bout du chemin Graham Hill — prévoir du temps supplémentaire pour les caprices du GPS dans les montagnes."
+[travel_rideshare_link]
+other = "Signaux cellulaires ne sont pas fiable - Schéduler d'avance un uber"
+[rideshare_link]
+other = "https://m.uber.com/go/reserve/home"
+
 
 # ── Liste de mariage ──────────────────────────────────────────
 [registry_label]

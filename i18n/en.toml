@@ -183,6 +183,10 @@ other = "See you soon!"
 other = "🚕 Getting Around"
 [travel_rideshare_desc]
 other = "We encourage rideshare (Uber/Lyft) so everyone can celebrate freely. The venue is located at the end of Graham Hill Rd — allow extra time for GPS quirks in the mountains."
+[travel_rideshare_link]
+other = "Cell signal is weak/non-existent - prearrange an uber pickup"
+[rideshare_link]
+other = "https://m.uber.com/go/reserve/home"
 
 # ── Registry ──────────────────────────────────────────────────
 [registry_label]

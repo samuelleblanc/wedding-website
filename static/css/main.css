@@ -1194,7 +1194,7 @@ textarea.form-input { resize: vertical; min-height: 90px; }
   .venue-facts { grid-template-columns: 1fr; }
 
   .timeline::before { left: 0; }
-  .timeline-time { font-size: 0.78rem; left:10px }
+  .timeline-time { font-size: 0.63rem; left:1px ; width: 60px; }
   .timeline-item { padding-left: 1.75rem; }
   .timeline-dot { left: -9px; }
   .timeline-dot--featured { left: -11px; }
