@@ -56,7 +56,7 @@ other = "Samedi, le 19 septembre 2026"
 [party_date_value]
 other = "Samedi, le 3 Octobre, 2026"
 [ceremony_time_value]
-other = "14 h 00"
+other = "Le train part ponctuellement à 15h15"
 [ceremony_location_line1]
 other = "Roaring Camp Railroads"
 [ceremony_location_line2]
@@ -64,7 +64,7 @@ other = "5401 Graham Hill Rd, Felton, CA 95018"
 [ceremony_attire_value]
 other = "Tenue de soirée champêtre — pensez aux belles couleurs vibrantes et aux chaussures confortables pour les sentiers de séquoias et les tracks de trains"
 [reception_time_value]
-other = "16 h 15 – 22 h 00"
+other = "17 h 15 – 22 h 00"
 [reception_location_value]
 other = "Roaring Camp Railroads — dans la grange - Bret Harte Hall"
 [reception_dinner_value]
@@ -178,7 +178,7 @@ other = "🏨 Où séjourner"
 [travel_hotel_desc]
 other = "Nous recommandons de séjourner à <strong>Santa Cruz</strong> (15 min) ou à <strong>Scotts Valley</strong> (10 min). Le Hampton Inn est tout près de notre maison, tandis que le camping à Henry Cowells est jusque à côté du Roaring Camp."
 [travel_hotel_link]
-other = "Plus d'informations à venir →"
+other = "On a hâte de vous voir!"
 [travel_rideshare_title]
 other = "🚕 Se déplacer"
 [travel_rideshare_desc]
@@ -190,21 +190,21 @@ other = "Cadeaux"
 [registry_title]
 other = "Liste de mariage"
 [registry_note]
-other = "Votre présence à notre mariage est le plus beau des cadeaux. Pour ceux et celles qui souhaitent offrir un présent, les détails de notre liste de mariage seront partagés ici prochainement."
+other = "Votre présence à notre mariage est le plus beau des cadeaux. Pour ceux et celles qui souhaitent offrir un cadeau, veillez nous offrir des aventures merveilleuses pour notre lune de miel."
 [registry_hf_url]
 other = "https://www.honeyfund.com/site/LindsayandSamuelAdventureAwaits"
 [registry_hf_img_url]
 other = "https://www.honeyfund.com/assets/img/destinations-default-covers/iceland/Iceland.jpg"
 [registry_hf_banner_names]
-other = "Lindsay &amp; Samuel"
+other = "Lindsay & Samuel"
 [registry_hf_source]
 other = "honeyfund.com"
 [registry_hf_name]
 other = "L'aventure vous attend"
 [registry_hf_desc]
-other = "Fonds de lune de miel de Lindsay &amp; Samuel — aidez-nous à financer notre aventure de rêve ensemble."
+other = "Fonds de lune de miel de Lindsay & Samuel — aidez-nous à financer notre aventure de rêve ensemble."
 [registry_placeholder_name2]
-other = "Plus à venir"
+other = "Donations à des charités à notre nom est apprécié"
 [registry_placeholder_sub2]
 other = ""
 

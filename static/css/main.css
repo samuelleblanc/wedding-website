@@ -761,12 +761,45 @@ h1, h2, h3, h4 {
   width: 300px;
 }
 .registry-card-banner {
-  line-height: 0;
+  position: relative;
+  overflow: hidden;
+  height: 190px;
 }
-.registry-card-banner svg {
+.registry-card-banner-img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   display: block;
+}
+.registry-card-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.08) 0%, rgba(0,0,0,0.62) 70%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1.1rem 1rem 1.25rem;
+  text-align: center;
+}
+.registry-card-banner-couple {
+  font-family: var(--font-script);
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.1;
+  display: block;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.5);
+}
+.registry-card-banner-tagline {
+  font-family: var(--font-serif);
+  font-size: 0.58rem;
+  color: rgba(255,255,255,0.88);
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  margin-top: 0.3rem;
+  display: block;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 .registry-card-body {
   padding: 1.1rem 1.5rem 1.4rem;
@@ -1161,7 +1194,7 @@ textarea.form-input { resize: vertical; min-height: 90px; }
   .venue-facts { grid-template-columns: 1fr; }
 
   .timeline::before { left: 0; }
-  .timeline-time { display: none; }
+  .timeline-time { font-size: 0.78rem; left:10px }
   .timeline-item { padding-left: 1.75rem; }
   .timeline-dot { left: -9px; }
   .timeline-dot--featured { left: -11px; }

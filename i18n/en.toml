@@ -56,7 +56,7 @@ other = "Saturday, September 19, 2026"
 [party_date_value]
 other = "Saturday, October 3, 2026"
 [ceremony_time_value]
-other = "3:15 PM"
+other = "Train departs promptly at 3:15 PM"
 [ceremony_location_line1]
 other = "Roaring Camp Railroads"
 [ceremony_location_line2]
@@ -64,7 +64,7 @@ other = "5401 Graham Hill Rd, Felton, CA 95018"
 [ceremony_attire_value]
 other = "Garden formal — think fun bright colors and comfortable shoes for train and redwood paths"
 [reception_time_value]
-other = "4:15 PM – 10:00 PM"
+other = "5:15 PM – 10:00 PM"
 [reception_location_value]
 other = "Roaring Camp Railroads — in the big barn - Bret Harte Hall"
 [reception_dinner_value]
@@ -176,9 +176,9 @@ other = "From San Jose: Take Hwy 17 south to the Felton/Mt. Hermon exit, then fo
 [travel_hotel_title]
 other = "🏨 Where to Stay"
 [travel_hotel_desc]
-other = "We recommend staying in <strong>Santa Cruz</strong> (15 min) or <strong>Scotts Valley</strong> (10 min). The hotel near our house is the Hampton Inn. Henry Cowells camping is nearby the Roaring Camp. More location recommendations to come."
+other = "We recommend staying in <strong>Santa Cruz</strong> (15 min) or <strong>Scotts Valley</strong> (10 min). The hotel near our house is the Hampton Inn. Henry Cowells camping is nearby the Roaring Camp."
 [travel_hotel_link]
-other = "More details coming soon"
+other = "See you soon!"
 [travel_rideshare_title]
 other = "🚕 Getting Around"
 [travel_rideshare_desc]
@@ -190,21 +190,21 @@ other = "Gifts"
 [registry_title]
 other = "Registry"
 [registry_note]
-other = "Your presence at our wedding is the greatest gift of all. For those who wish to give, our registry details will be shared here soon."
+other = "Your presence at our wedding is the greatest gift of all. For those who wish to give, help make our honeymoon even better."
 [registry_hf_url]
 other = "https://www.honeyfund.com/site/LindsayandSamuelAdventureAwaits"
 [registry_hf_img_url]
 other = "https://www.honeyfund.com/assets/img/destinations-default-covers/iceland/Iceland.jpg"
 [registry_hf_banner_names]
-other = "Lindsay &amp; Samuel"
+other = "Lindsay & Samuel"
 [registry_hf_source]
 other = "honeyfund.com"
 [registry_hf_name]
 other = "Adventure Awaits"
 [registry_hf_desc]
-other = "Lindsay &amp; Samuel's Honeymoon Fund — help us fund our dream adventure together."
+other = "Lindsay & Samuel's Honeymoon Fund — help us fund our dream adventure together."
 [registry_placeholder_name2]
-other = "More to come!"
+other = "Charity donations in our name is welcomed."
 [registry_placeholder_sub2]
 other = ""
 
